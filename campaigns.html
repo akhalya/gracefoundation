@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campaigns – Grace Foundation</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body data-page="campaigns">
+<div id="nav-placeholder"></div>
+
+<section class="page-header">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">›</span><span>Campaigns</span></div>
+    <h1>Our Campaigns</h1>
+    <p>Creative, community-driven initiatives that turn awareness into action — one conversation, one film, one mind at a time.</p>
+  </div>
+</section>
+
+<section class="section" style="background:var(--white);">
+  <div class="container">
+
+    <!-- TABS -->
+    <div class="campaign-tabs">
+      <button class="campaign-tab active" onclick="showTab('upcoming', this)">Upcoming Campaigns</button>
+      <button class="campaign-tab" onclick="showTab('past', this)">Past Campaigns</button>
+    </div>
+
+    <!-- UPCOMING -->
+    <div id="tab-upcoming">
+      <div style="display:flex;flex-direction:column;gap:2rem;">
+
+        <div class="upcoming-card fade-in">
+          <div>
+            <div class="uc-label">Upcoming · Open for Registration</div>
+            <h2 style="font-size:1.7rem;margin-bottom:0.75rem;">"Say No to Alcohol" Short Film Contest — Season 2</h2>
+            <p style="max-width:580px;margin-bottom:1.5rem;">Building on the success of Season 1, we invite filmmakers, students, and creative minds across Tamil Nadu to submit short films that spark real conversations about substance abuse. Cash prizes worth ₹3,00,000.</p>
+            <div class="camp-meta">
+              <div class="camp-meta-item"><strong>Registration Opens</strong>August 1, 2025</div>
+              <div class="camp-meta-item"><strong>Submission Deadline</strong>October 15, 2025</div>
+              <div class="camp-meta-item"><strong>Results</strong>November 30, 2025</div>
+              <div class="camp-meta-item"><strong>Open To</strong>All ages, Tamil Nadu</div>
+              <div class="camp-meta-item"><strong>Prize Pool</strong>₹3,00,000</div>
+            </div>
+            <div style="display:flex;gap:0.85rem;flex-wrap:wrap;">
+              <a href="contact.html" class="btn btn-blue">Register Interest</a>
+              <a href="#guidelines" class="btn btn-outline">View Guidelines</a>
+            </div>
+          </div>
+          <div class="uc-countdown">
+            <div class="days" id="countdown-days">62</div>
+            <div class="days-label">Days to<br>Registration</div>
+          </div>
+        </div>
+
+        <div class="upcoming-card fade-in d2">
+          <div>
+            <div class="uc-label">Upcoming · Planning Phase</div>
+            <h2 style="font-size:1.7rem;margin-bottom:0.75rem;">School Awareness Drive — North Chennai Districts</h2>
+            <p style="max-width:580px;margin-bottom:1.5rem;">An intensive three-month awareness program targeting 30 government and aided schools across Thiruvallur, Ponneri, and Ennore. Interactive sessions, student pledges, and parent workshops.</p>
+            <div class="camp-meta">
+              <div class="camp-meta-item"><strong>Target Launch</strong>September 2025</div>
+              <div class="camp-meta-item"><strong>Duration</strong>3 Months</div>
+              <div class="camp-meta-item"><strong>Target Schools</strong>30 schools</div>
+              <div class="camp-meta-item"><strong>Est. Students Reached</strong>8,000+</div>
+            </div>
+            <div style="display:flex;gap:0.85rem;flex-wrap:wrap;">
+              <a href="get-involved.html#csr" class="btn btn-blue">Sponsor This Campaign</a>
+              <a href="contact.html" class="btn btn-outline">Volunteer for This</a>
+            </div>
+          </div>
+          <div class="uc-countdown">
+            <div class="days">Q3</div>
+            <div class="days-label">2025<br>Target</div>
+          </div>
+        </div>
+
+        <div class="upcoming-card fade-in d3">
+          <div>
+            <div class="uc-label">Upcoming · Sponsorship Open</div>
+            <h2 style="font-size:1.7rem;margin-bottom:0.75rem;">Short Films on Wheels — Season 2</h2>
+            <p style="max-width:580px;margin-bottom:1.5rem;">Mobile screening vehicles touring South and Central Chennai, screening Season 1 film contest winners and expert-led awareness content at schools, colleges, and public spaces.</p>
+            <div class="camp-meta">
+              <div class="camp-meta-item"><strong>Target Launch</strong>December 2025</div>
+              <div class="camp-meta-item"><strong>Coverage</strong>South & Central Chennai</div>
+              <div class="camp-meta-item"><strong>Screening Venues</strong>50+ locations</div>
+            </div>
+            <div style="display:flex;gap:0.85rem;flex-wrap:wrap;">
+              <a href="get-involved.html#csr" class="btn btn-blue">Become a Sponsor</a>
+            </div>
+          </div>
+          <div class="uc-countdown">
+            <div class="days">Q4</div>
+            <div class="days-label">2025<br>Target</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- GUIDELINES -->
+      <div style="margin-top:5rem;" id="guidelines">
+        <div class="center" style="margin-bottom:3rem;">
+          <span class="section-label">Film Contest</span>
+          <h2>Submission Guidelines</h2>
+          <p class="sub">Everything you need to know to participate in Season 2.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step fade-in d1"><div class="step-num">1</div><div><h4>Create Your Film</h4><p>Short film up to 15 minutes on the negative effects of alcohol abuse. Tamil or silent format. Any genre — documentary, narrative, animation.</p></div></div>
+          <div class="step fade-in d2"><div class="step-num">2</div><div><h4>Upload to Drive or YouTube</h4><p>Upload your film and generate a shareable link. Make sure the link is accessible to anyone with it.</p></div></div>
+          <div class="step fade-in d3"><div class="step-num">3</div><div><h4>Email Your Entry</h4><p>Send the link with your full name, age, institution, and district to info@gracefoundation.co with subject: "Film Contest Season 2".</p></div></div>
+          <div class="step fade-in d4"><div class="step-num">4</div><div><h4>Winners Announced</h4><p>Our panel reviews all submissions. Winners receive cash prizes, trophies, certificates, and their films are screened across Tamil Nadu.</p></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAST CAMPAIGNS -->
+    <div id="tab-past" style="display:none;">
+      <div class="campaign-cards-grid">
+
+        <div class="camp-card fade-in d1">
+          <div class="camp-card-top past"></div>
+          <div class="camp-card-body">
+            <div class="camp-status past">Completed</div>
+            <h3>"Say No to Alcohol" Short Film Contest — Season 1</h3>
+            <p>Tamil Nadu's first short film contest focused on alcohol awareness. 300+ submissions from across the state, screened at schools and colleges statewide.</p>
+            <div class="camp-meta">
+              <div class="camp-meta-item"><strong>Period</strong>Jan – Mar 2025</div>
+              <div class="camp-meta-item"><strong>Submissions</strong>300+</div>
+              <div class="camp-meta-item"><strong>Prize Pool</strong>₹3,00,000</div>
+            </div>
+            <a href="campaign-film-season1.html" class="btn btn-blue" style="margin-top:auto;">View Full Summary →</a>
+          </div>
+        </div>
+
+        <div class="camp-card fade-in d2">
+          <div class="camp-card-top past"></div>
+          <div class="camp-card-body">
+            <div class="camp-status past">Completed</div>
+            <h3>Short Films on Wheels — Season 1</h3>
+            <p>Mobile screening vehicles in partnership with G Square toured North Chennai, bringing award-winning films to schools, colleges, and public spaces across 8 districts.</p>
+            <div class="camp-meta">
+              <div class="camp-meta-item"><strong>Period</strong>Apr – Jun 2025</div>
+              <div class="camp-meta-item"><strong>Venues Covered</strong>42 locations</div>
+              <div class="camp-meta-item"><strong>Audience Reached</strong>12,000+</div>
+            </div>
+            <a href="campaign-films-on-wheels.html" class="btn btn-blue" style="margin-top:auto;">View Full Summary →</a>
+          </div>
+        </div>
+
+        <div class="camp-card fade-in d3">
+          <div class="camp-card-top past"></div>
+          <div class="camp-card-body">
+            <div class="camp-status past">Completed</div>
+            <h3>School Awareness Drive — Erode District</h3>
+            <p>A focused three-month awareness drive across 18 government schools in Erode district. Interactive sessions, parent workshops, and youth pledge ceremonies.</p>
+            <div class="camp-meta">
+              <div class="camp-meta-item"><strong>Period</strong>Oct – Dec 2024</div>
+              <div class="camp-meta-item"><strong>Schools</strong>18</div>
+              <div class="camp-meta-item"><strong>Students Reached</strong>5,400+</div>
+            </div>
+            <a href="campaign-erode-drive.html" class="btn btn-blue" style="margin-top:auto;">View Full Summary →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container"><div class="nl-inner">
+    <span class="section-label" style="text-align:center;">Stay Updated</span>
+    <h2>Be the first to know</h2>
+    <p>Campaign launches, contest results, and screening schedules in your inbox.</p>
+    <form class="nl-form" onsubmit="return false;">
+      <input type="email" placeholder="Your email address">
+      <button class="btn btn-blue" type="submit">Subscribe</button>
+    </form>
+  </div></div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="js/layout.js"></script>
+<script>
+function showTab(tab, el) {
+  document.getElementById('tab-upcoming').style.display = tab === 'upcoming' ? 'block' : 'none';
+  document.getElementById('tab-past').style.display = tab === 'past' ? 'block' : 'none';
+  document.querySelectorAll('.campaign-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+}
+// Simple countdown — days until Aug 1 2025
+const target = new Date('2025-08-01');
+const now = new Date();
+const diff = Math.ceil((target - now) / (1000 * 60 * 60 * 24));
+const el = document.getElementById('countdown-days');
+if (el && diff > 0) el.textContent = diff;
+else if (el) el.textContent = 'Now';
+</script>
+</body>
+</html>
